@@ -1,4 +1,4 @@
-# CaféApi Library Test
+# Octadesk PHP Library
 
 [![Maintainer](http://img.shields.io/badge/maintainer-@gabrielsilva50-blue.svg?style=flat-square)](https://twitter.com/gabrielsilva50)
 [![Source Code](http://img.shields.io/badge/source-codingFive0/octadesk-blue.svg?style=flat-square)](https://github.com/codingFive0/octadesk)
