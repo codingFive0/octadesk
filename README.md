@@ -2,9 +2,12 @@
 
 [![Maintainer](http://img.shields.io/badge/maintainer-@gabrielsilva50-blue.svg?style=flat-square)](https://twitter.com/gabrielsilva50)
 [![Source Code](http://img.shields.io/badge/source-codingFive0/octadesk-blue.svg?style=flat-square)](https://github.com/codingFive0/octadesk)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/robsonvleite/cafeapi.svg?style=flat-square)](https://packagist.org/packages/robsonvleite/cafeapi)
+[![Latest Version](https://img.shields.io/github/release/codingFive0/octadesk.svg?style=flat-square)](https://github.com/codingFive0/octadesk/releases)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/codingFive0/octadesk.svg?style=flat-square)](https://packagist.org/packages/codingFive0/octadesk)
+[![Build](https://img.shields.io/scrutinizer/build/g/codingFive0/octadesk.svg?style=flat-square)](https://scrutinizer-ci.com/g/codingFive0/octadesk)
+[![Quality Score](https://img.shields.io/scrutinizer/g/codingFive0/octadesk.svg?style=flat-square)](https://scrutinizer-ci.com/g/codingFive0/octadesk)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Total Downloads](https://img.shields.io/packagist/dt/codingFive0/octadesk.svg?style=flat-square)](https://packagist.org/packages/crobsonvleite/cafeapi)
+[![Total Downloads](https://img.shields.io/packagist/dt/codingFive0/octadesk.svg?style=flat-square)](https://packagist.org/packages/codingFive0/octadesk)
 
 ###### Octadesk Library is a small set of classes developed for integration into the webservice of a Octadesk Plataform..
 
