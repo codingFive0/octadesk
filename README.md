@@ -3,15 +3,12 @@
 [![Maintainer](http://img.shields.io/badge/maintainer-@gabrielsilva50-blue.svg?style=flat-square)](https://twitter.com/gabrielsilva50)
 [![Source Code](http://img.shields.io/badge/source-codingFive0/octadesk-blue.svg?style=flat-square)](https://github.com/codingFive0/octadesk)
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/robsonvleite/cafeapi.svg?style=flat-square)](https://packagist.org/packages/robsonvleite/cafeapi)
-[![Latest Version](https://img.shields.io/github/release/robsonvleite/cafeapi.svg?style=flat-square)](https://github.com/robsonvleite/cafeapi/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build](https://img.shields.io/scrutinizer/build/g/robsonvleite/cafeapi.svg?style=flat-square)](https://scrutinizer-ci.com/g/robsonvleite/cafeapi)
-[![Quality Score](https://img.shields.io/scrutinizer/g/robsonvleite/cafeapi.svg?style=flat-square)](https://scrutinizer-ci.com/g/robsonvleite/cafeapi)
-[![Total Downloads](https://img.shields.io/packagist/dt/robsonvleite/cafeapi.svg?style=flat-square)](https://packagist.org/packages/crobsonvleite/cafeapi)
+[![Total Downloads](https://img.shields.io/packagist/dt/codingFive0/octadesk.svg?style=flat-square)](https://packagist.org/packages/crobsonvleite/cafeapi)
 
-###### CaféApi Library is a small set of classes developed in UpInside's Full Stack PHP Developer training for integration into the webservice of a SaaS platform developed in the course..
+###### Octadesk Library is a small set of classes developed for integration into the webservice of a Octadesk Plataform..
 
-Octadesk Library é um pequeno conjunto de classes desenvolvidas para integração ao webservice de uma plataforma Octadesk.
+Octadesk Library é um pequeno conjunto de classes desenvolvidas para integração ao webservice da plataforma Octadesk.
 
 Acesse a documentação oficial **[clicando aqui](https://api.octadesk.services/docs/#/)**.
 
@@ -47,11 +44,14 @@ Please see [CONTRIBUTING](https://github.com/codingFive0/octadesk/blob/master/CO
 
 ## Support
 
-###### Security: If you discover any security related issues, please email meu@email.com.br instead of using the issue tracker.
+###### Security: If you discover any security related issues, please email desenvolvimento@agenciagalg.com.br instead of using the issue tracker.
+###### Or if you prefere contact me on instagram @japa_gabrielsilva
 
-Se você descobrir algum problema relacionado à segurança, envie um e-mail para meu@email.com.br em vez de usar o rastreador de problemas.
+Se você descobrir algum problema relacionado à segurança, envie um e-mail para desenvolvimento@agenciagalg.com.br em vez de usar o rastreador de problemas.
+Ou se preferir fale comigo no instagram @japa_gabrielsilva
 
 Thank you
+Obrigado
 
 ## Credits
 
