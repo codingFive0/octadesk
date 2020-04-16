@@ -1,5 +1,4 @@
-<?php //require dirname(__DIR__, 1) . "/vendor/autoload.php";
-require "../src/Login.php";
+<?php require __DIR__ . "../vendor/autoload.php";
 
 $token = "octa.aFr19n6IHvE4.aKTbqOYjyk24";
 $userName = "uribeirosilva@gmail.com";

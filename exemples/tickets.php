@@ -1,6 +1,4 @@
-<?php
-require "../src/Login.php";
-require "../src/Ticket.php";
+<?php require __DIR__ . "../vendor/autoload.php";
 
 $token = "octa.aFr19n6IHvE4.aKTbqOYjyk24";
 $userName = "diogenes@contaagil.com";
