@@ -1,5 +1,6 @@
 <?php
 
+namespace codingFive0\octadesk;
 /**
  * Class Octadesk
  */

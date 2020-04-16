@@ -1,5 +1,5 @@
 {
-  "name": "gabrielsilva971/octadesk",
+  "name": "codingfive0/octadesk",
   "description": "Biblioteca API para integração com o webservice da Octadesk",
   "keywords": [
     "Desk",
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "source\\": "src"
+      "codingFive0\\octadesk\\": "src"
     }
   }
 }

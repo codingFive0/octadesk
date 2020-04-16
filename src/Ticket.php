@@ -1,5 +1,5 @@
 <?php
-require_once "../src/Octadesk.php";
+namespace codingFive0\octadesk;
 
 class Ticket extends Octadesk
 {
