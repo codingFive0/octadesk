@@ -1,6 +1,7 @@
 <?php
 
 namespace codingFive0\octadesk;
+
 /**
  * Class Octadesk
  */
@@ -59,14 +60,19 @@ abstract class Octadesk
      * @param array|null $fields
      * @param array|null $headers
      */
-    protected function request($method, $endpoint, $fields = null, $headers = null)
+    protected function request($method, $endpoint, $fields = null, $headers = null, $toJson = false)
     {
         $this->method = $method;
         $this->endpoint = $endpoint;
-        $this->fields = $fields;
+        $this->fields = (empty($toJson) ? $fields : json_encode($fields));
         $this->setHeaders($headers);
 
         $this->dispatch();
+    }
+
+    public function getError()
+    {
+        return $this->error;
     }
 
     /**

@@ -4,7 +4,7 @@ namespace codingFive0\octadesk;
 
 class Login extends Octadesk
 {
-    public function __construct($apiToken, $userName, $userPassword = null, $subDomain = null)
+    public function __construct($apiToken = null, $userName = null, $userPassword = null, $subDomain = null)
     {
         if ((empty($apiToken) && empty($userName)) || (empty($userName) && empty($userPassword) && empty($subDomain))) {
             $this->error = "Para realizar o login na API é necessário a informação do Token e do E-mail cadastrado na Octadesk. Ou ainda e-mail, senha e sub-dominio.";
