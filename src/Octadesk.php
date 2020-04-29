@@ -67,6 +67,11 @@ abstract class Octadesk
         $this->fields = (empty($toJson) ? $fields : json_encode($fields));
         $this->setHeaders($headers);
 
+        if($toJson){
+            $this->headers[] = "Content-Type: application/json";
+            $this->headers[] = "accept: application/json";
+        }
+
         $this->dispatch();
     }
 

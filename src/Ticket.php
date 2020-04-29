@@ -60,23 +60,27 @@ class Ticket extends Octadesk
 
     public function createTicket(array $ticket, array $customField = [])
     {
-        ;
+        $body = [
+            "requester" => [
+                "email" => ($ticket["requester_email"]),
+                "name" => ($ticket["requester_name"])
+            ],
+            "summary" => ($ticket["summary"] ?? null),
+            "comments" => [
+                "description" => [
+                    "content" => ($ticket["comments_content"] ?? null)
+                ]
+            ]
+        ];
+
+        if ($customField) {
+            $body = array_merge(["customField" => $customField], $body);
+        }
+
         $this->request(
             "POST",
             "tickets",
-            [
-                "requester" => [
-                    "email" => ($ticket["requester_email"]),
-                    "name" => ($ticket["requester_name"])
-                ],
-                "summary" => ($ticket["summary"] ?? null),
-                "comments" => [
-                    "description" => [
-                        "content" => ($ticket["comments_content"] ?? null)
-                    ]
-                ],
-                "customField" => $customField
-            ],
+            $body,
             null,
             true
         );
