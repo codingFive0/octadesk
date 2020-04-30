@@ -70,7 +70,8 @@ class Ticket extends Octadesk
                 "description" => [
                     "content" => ($ticket["comments_content"] ?? null)
                 ]
-            ]
+            ],
+            "idProductRelated" => ($ticket["product"] ?? null)
         ];
 
         if ($customField) {

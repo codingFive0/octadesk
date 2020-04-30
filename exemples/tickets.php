@@ -21,8 +21,8 @@ $createTicket = [
     "requester_email" => "ramos@gane.com.br",
     "requester_name" => "Rafael Ramos",
     "summary" => "Mais um teste de API",
-    "comments_content" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when"
+    "product" => "50b73676-e9c6-4d93-9284-18bc79399d1c"
 ];
 
-//$create = $ticket->createTicket($createTicket);
+$create = $ticket->createTicket($createTicket);
 
