@@ -1,9 +1,9 @@
 <?php require __DIR__ . "../vendor/autoload.php";
 
-$token = "octa.aFr19n6IHvE4.aKTbqOYjyk24";
-$userName = "diogenes@contaagil.com";
-$userPassword = "agil123899";
-$subDomain = "contaagil";
+$token = "octa.************.************";
+$userName = "";
+$userPassword = "";
+$subDomain = "";
 
 $login = new Login($token, $userName, $userPassword, $subDomain);
 $token = $login->login()->callback()->token;

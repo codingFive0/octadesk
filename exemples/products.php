@@ -1,9 +1,9 @@
 <?php require_once __DIR__ . "/../vendor/autoload.php";
 
-$token = "octa.aFr19n6IHvE4.aKTbqOYjyk24";
-$userName = "diogenes@contaagil.com";
-$userPassword = "agil123899";
-$subDomain = "contaagil";
+$token = "octa.************.************";
+$userName = "";
+$userPassword = "";
+$subDomain = "";
 
 $login = new \codingFive0\octadesk\Login($token, $userName, $userPassword, $subDomain);
 $accToken = $login->login()->callback()->token;
